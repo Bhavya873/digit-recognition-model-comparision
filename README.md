@@ -13,11 +13,10 @@ This project lets you **draw your own digits** and see how two different machine
 
 ---
 
-## Why & What I Learned
+# Why & What I Learned 
 
-I built this to see how a basic perceptron and a deep CNN handle handwritten digits. The perceptron is fast but misses details, while VGG-11 is much smarter with messy writing. It’s eye-opening to watch your predictions update in real time! 
+I built this to see how a basic perceptron and a deep CNN handle handwritten digits. The perceptron is fast but misses details, while VGG-11 is much smarter with messy writing. It’s eye-opening to watch your predictions update in real time! I learned how techniques like convolution, pooling, batch normalization, dropout, and backpropagation allow deep networks like VGG-11 to recognize digits far more accurately than simple linear models like perceptrons as well as how these technique result in a more accurate prediction. 
 
-I learned how techniques like convolution, pooling, batch normalization, dropout, and backpropagation allow deep networks like VGG-11 to recognize digits far more accurately than simple linear models like perceptrons as well as how these technique result in a more accurate prediction. 
 ---
 
 ## Setup Guide
@@ -27,7 +26,6 @@ I learned how techniques like convolution, pooling, batch normalization, dropout
 ### 2. Install Dependencies (Requires Python 3.8+)  
 
 `pip install -r requirements.txt`
-
 
 ### 3. Obtain Model Weights
 
