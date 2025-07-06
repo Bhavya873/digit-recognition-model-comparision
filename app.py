@@ -10,7 +10,7 @@ from perceptron import load_perceptron
 # 1. Load device & models
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 vgg = VGG11().to(device)
-vgg.load_state_dict(torch.load("vgg11_mnist.pth", map_location=device))
+vgg.load_state_dict(torch.load("vgg11_mnist.pth", map_location=device, weights_only=False))
 vgg.eval()
 perc = load_perceptron("perceptron_ova_mnist.pth", device)
 
