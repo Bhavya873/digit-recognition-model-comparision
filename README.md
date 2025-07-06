@@ -30,7 +30,7 @@ I built this to see how a basic perceptron and a deep CNN handle handwritten dig
 ### 3. Obtain Model Weights
 
 **Option A: Use Pretrained Models**  
-Download these files and put them in your project folder:
+Download these files and put them in your project folder (github doesn't let you upload 100+ MB files 🙄):
 
 - **VGG-11 weights**  
   https://drive.google.com/file/d/1OS3VIUdQ3uaxsNCdPkpNEp2gFPPmN-mn/view?usp=sharing  
