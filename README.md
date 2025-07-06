@@ -1,6 +1,6 @@
-# digit-recognition-model-comparision
+# Digit Recognition: classical vs deep learning
 
-This project lets you **draw your own digits** and see how two different machine learning models—**a simple one-vs-all Perceptron** and a **VGG-11 Convolutional Nueral Network(CNN)**—try to guess what you wrote, live using pretrained weights!
+This project lets you **draw your own digits** and see how two different machine learning models, a **one-vs-all Perceptron** and a **VGG-11 Convolutional Nueral Network(CNN)**, guess what digit you wrote, live using pretrained weights!
 
 ---
 
@@ -24,10 +24,9 @@ I learned how techniques like convolution, pooling, batch normalization, dropout
 
 ### 1. Clone the Repository
 
-### 2. Install Dependencies
-Requires Python 3.8+  
+### 2. Install Dependencies (Requires Python 3.8+)  
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 ### 3. Obtain Model Weights
@@ -49,7 +48,7 @@ Move the `.pth` files to the project root after training.
 
 ### 4. Run the App
 
-python app.py
+`python app.py`
 
 Open the URL shown (e.g., `http://localhost:7860`) in your browser and start drawing!
 
@@ -66,6 +65,6 @@ Open the URL shown (e.g., `http://localhost:7860`) in your browser and start dra
 
 ---
 
-Have fun experimenting—and see the difference between classic and deep learning for yourself!
+Have fun experimenting and see the difference between classic and deep learning for yourself!
 
 
