@@ -1,6 +1,6 @@
 # Digit Recognition: classical vs deep learning
 
-This project lets you **draw your own digits** and see how two different machine learning models, a **one-vs-all Perceptron** and a **VGG-11 Convolutional Nueral Network(CNN)**, guess what digit you wrote, live using pretrained weights!
+This project lets you draw your own digits and watch, in real time, as two different machine learning models, a one-vs-all Perceptron and a VGG-11 Convolutional Neural Network (CNN), try to guess what you wrote using pretrained weights! I built and trained both models from scratch in Jupyter notebooks, then used Python to create an interactive web app where you can explore and compare their predictions live.
 
 ---
 
