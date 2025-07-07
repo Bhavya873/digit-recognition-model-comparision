@@ -2,6 +2,9 @@
 
 This project lets you draw your own digits and watch, in real time, as two different machine learning models, a one-vs-all Perceptron and a VGG-11 Convolutional Neural Network (CNN), try to guess what you wrote using pretrained weights! I built and trained both models from scratch in Jupyter notebooks, then used Python to create an interactive web app where you can explore and compare their predictions live.
 
+![Screenshot 2025-07-06 at 4 06 26 PM](https://github.com/user-attachments/assets/e396da01-07f2-48b5-9235-a90fb98e64ea)
+![Screenshot 2025-07-06 at 4 06 31 PM](https://github.com/user-attachments/assets/1886029a-0fd3-4469-ac26-775a596298fa)
+
 ---
 
 ## Features
